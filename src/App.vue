@@ -23,7 +23,6 @@ export default {
       const img = this.$refs.img;
       const input = this.$refs.input.value;
       img.src = `${api}${restOfApi}${input}`;
-      console.log(img, input);
     },
   },
 };
